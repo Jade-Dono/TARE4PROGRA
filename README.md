@@ -1,6 +1,6 @@
 # Software FJ — Sistema de clientes, servicios y reservas
 
-Sistema orientado a objetos en Python (3.9+), **sin base de datos**: todo en objetos y listas
+Sistema orientado a objetos en Python, sin base de datos: todo en objetos y listas
 en memoria. El único archivo que se escribe es el log de eventos y errores (`logs/software_fj.log`).
 
 ## Ejecutar
