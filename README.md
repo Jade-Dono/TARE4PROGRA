@@ -35,9 +35,6 @@ main.py              # simulación completa
 | Encapsulación | atributos privados con `@property` y validación en los setters; listas del gestor expuestas como copias |
 | Sobrecarga | `calcular_costo(h)`, `(h, impuesto)`, `(h, impuesto, descuento)`, `calcular_costo_con_impuesto`, `calcular_costo_con_descuento`; `buscar_cliente` por `int` (id) o `str` (documento) con `singledispatchmethod` |
 
-> Python no tiene sobrecarga por firma como Java; se implementa con parámetros opcionales,
-> variantes nombradas y `functools.singledispatchmethod`.
-
 ## Manejo de excepciones
 
 - Jerarquía propia: `ErrorSoftwareFJ` → `ClienteInvalidoError`, `ServicioInvalidoError`,
